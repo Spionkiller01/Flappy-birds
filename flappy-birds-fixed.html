@@ -179,7 +179,8 @@
             }
 
             // Dynamische Geschwindigkeit basierend auf Score
-            let pipeSpeed = 3 + (score * 0.05);
+            // Verbesserte Formel für langsames, kontinuierliches Wachstum
+            let pipeSpeed = 2 + (score * 0.02);
             
             // Pfeife hinzufügen
             frameCount++;
